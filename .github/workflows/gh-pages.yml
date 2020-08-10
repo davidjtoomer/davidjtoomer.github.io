@@ -20,7 +20,7 @@ jobs:
         run: |
           git config --global user.name "davidjtoomer"
           git config --global user.email "djtoomer22@gmail.com"
-          git remote set-url origin https://${{secrets.PERSONAL_ACCESS_TOKEN}}@github.com/davidjtoomer/davidtoomer.com.git
+          git remote set-url origin https://${{secrets.PERSONAL_ACCESS_TOKEN}}@github.com/davidjtoomer/davidjtoomer.github.io.git
 
       - name: Deploy to Github Pages
         run:
